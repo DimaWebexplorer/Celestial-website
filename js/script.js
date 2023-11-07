@@ -312,7 +312,7 @@ function init() {
         `
     }, {
         iconLayout: 'default#image',
-        iconImageHref: '../icons/placemark.svg',
+        iconImageHref: 'icons/placemark.svg',
         iconImageSize: [80, 86],
         iconImageOffset: [-40, -65],
     });
@@ -336,7 +336,7 @@ function init() {
         `
     }, {
         iconLayout: 'default#image',
-        iconImageHref: '../icons/placemark.svg',
+        iconImageHref: 'icons/placemark.svg',
         iconImageSize: [80, 86],
         iconImageOffset: [-25, -50],
     });
