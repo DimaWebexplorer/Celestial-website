@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CELESTIAL</title>
+</head>
+<body>
+    <header class="header">
+        <div class="main-container header__main-container">
+            <img class="header__logo" src="icons/Logo.svg" alt="logo">
+            <div class="header__navigation">
+                <div class="header__navigation-upper">
+                    <div class="location">
+                        <img class="location__icon" src="icons/location.svg" alt="location">
+                        <p class="location__place">Екатеринбург</p>
+                    </div>
+                    <nav class="nav-menu">
+                        <ul class="nav-menu__list">
+                            <li class="nav-menu__list-item">
+                                О компании
+                                <img class="nav-menu__list-icon" src="icons/arrov-down.svg" alt="arrow-down">
+                            </li>
+                            <li class="nav-menu__list-item">
+                                Покупателям
+                                <img class="nav-menu__list-icon" src="icons/arrov-down.svg" alt="arrow-down">
+                            </li>
+                            <li class="nav-menu__list-item">
+                                Поставщикам
+                            </li>
+                            <li class="nav-menu__list-item">
+                                Контакты
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <hr class="header__navigation-hr">
+                <div class="header__navigation-lower">
+                    <button class="btn-catalog">
+                        <div class="btn-catalog__hamburger">
+                            <span class="btn-catalog__hamburger-item"></span>
+                        </div>
+                        Каталог товаров
+                    </button>
+                    <div class="search-line">
+                        <img class="search-line__icon" src="icons/search.svg" alt="search">
+                        <input type="text" name="text" class="search-line__search" placeholder="Поиск товаров...">
+                    </div>
+                    <div class="favorites-cart">
+                        <img class="favorites-cart__icon" src="icons/like.svg" alt="like">
+                        Избранное
+                    </div>
+                    <div class="favorites-cart">
+                        <img class="favorites-cart__icon" src="icons/cart.svg" alt="cart">
+                        Корзина
+                    </div>
+                    <button class="btn-auhtorisation">
+                        Войти
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="bg-catalog">
+        </div>
+        <nav class="catalog">
+            <div class="catalog__level1">
+                <ul class="catalog__level1-items">
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">
+                            <a class="catalog__level1-item-icon catalog__level1-item-icon_star" href="#"></a>
+                            Актуальные
+                        </p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">
+                            <a class="catalog__level1-item-icon catalog__level1-item-icon_discount" href="#"></a>
+                            Акции
+                        </p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text catalog__level1-item-text_hover">Новогодние товары</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">Галантерея и аксессуары</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">Хозтовары</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">Праздники и подарки</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">Интерьерные товары для дома</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">Домашний текстиль</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">Творчество</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">Туризм и активный отдых</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">Товары для рассады</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">Игрушки, товары для детей</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">Пикник</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">Спортивные товары</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">Товары для животных</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">Интерьерное освещение</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">Одежда, обувь, головные уборы</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">Снегоуборочный инвентарь</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">Бассейны и аксессуары</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">Средства гигиены и бытовая химия</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">Товары для бани и сауны</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">Строительство и ремонт</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level1-item">
+                        <p class="catalog__level1-item-text">Автотовары</p>
+                        <a class="catalog__level1-item-arrow" href="#"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="catalog__level2">
+                <div class="button-container">
+                    <button class="btn-new">
+                        <p class="btn-new__text">Новинки</p>
+                    </button>
+                </div>
+                <ul class="catalog__level2-items">
+                    <li class="catalog__level2-item">
+                        <p class="catalog__level2-item-text">Все товары категории</p>
+                    </li>
+                    <li class="catalog__level2-item catalog__level2-item_hover">
+                        <p class="catalog__level2-item-text">Гирлянды и освещение</p>
+                        <a class="catalog__level2-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level2-item">
+                        <p class="catalog__level2-item-text">Ёлки искусственные</p>
+                        <a class="catalog__level2-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level2-item">
+                        <p class="catalog__level2-item-text">Украшения для ёлки</p>
+                        <a class="catalog__level2-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level2-item">
+                        <p class="catalog__level2-item-text">Сувениры новогодние</p>
+                        <a class="catalog__level2-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level2-item">
+                        <p class="catalog__level2-item-text">Посуда новогодняя</p>
+                        <a class="catalog__level2-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level2-item">
+                        <p class="catalog__level2-item-text">Текстиль новогодний</p>
+                        <a class="catalog__level2-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level2-item">
+                        <p class="catalog__level2-item-text">Карнавальные товары</p>
+                        <a class="catalog__level2-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level2-item">
+                        <p class="catalog__level2-item-text">Игрушки новогодние</p>
+                    </li>
+                    <li class="catalog__level2-item">
+                        <p class="catalog__level2-item-text">Галантерея новогодняя</p>
+                        <a class="catalog__level2-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level2-item">
+                        <p class="catalog__level2-item-text">Упаковка новогодняя</p>
+                        <a class="catalog__level2-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level2-item">
+                        <p class="catalog__level2-item-text">Новогодние книжки</p>
+                    </li>
+                    <li class="catalog__level2-item">
+                        <p class="catalog__level2-item-text">Канцтовары новогодние</p>
+                        <a class="catalog__level2-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level2-item">
+                        <p class="catalog__level2-item-text">Атрибуты праздника</p>
+                        <a class="catalog__level2-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level2-item">
+                        <p class="catalog__level2-item-text">Одежда и обувь новогодние</p>
+                        <a class="catalog__level2-item-arrow" href="#"></a>
+                    </li>
+                    <li class="catalog__level2-item">
+                        <p class="catalog__level2-item-text">Товары для дома новогодние</p>
+                    </li>
+                    <li class="catalog__level2-item">
+                        <p class="catalog__level2-item-text">Открытки новогодние</p>
+                    </li>
+                    <li class="catalog__level2-item">
+                        <p class="catalog__level2-item-text">Предыдущие коллекции</p>
+                        <a class="catalog__level2-item-arrow" href="#"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="catalog__level3">
+                <ul class="catalog__level3-items">
+                    <li class="catalog__level3-item">
+                        <p class="catalog__level3-item-text">Гирлянды для дома</p>
+                    </li>
+                    <li class="catalog__level3-item">
+                        <p class="catalog__level3-item-text">Гирлянды уличные</p>
+                    </li>
+                    <li class="catalog__level3-item">
+                        <p class="catalog__level3-item-text">Гирлянды на батарейках, USB</p>
+                    </li>
+                    <li class="catalog__level3-item">
+                        <p class="catalog__level3-item-text">Верхушки с подсветкой</p>
+                    </li>
+                    <li class="catalog__level3-item">
+                        <p class="catalog__level3-item-text">Световые приборы</p>
+                    </li>
+                    <li class="catalog__level3-item">
+                        <p class="catalog__level3-item-text">Фигуры световые</p>
+                    </li>
+                    <li class="catalog__level3-item">
+                        <p class="catalog__level3-item-text">Удлинители для гирлянд</p>
+                    </li>
+                    <li class="catalog__level3-item">
+                        <p class="catalog__level3-item-text">Ленты светодиодные</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="catalog__banner catalog__banner">
+                <div class="catalog__banner-container catalog__banner-container_level1">
+                    <div class="banner-slider">
+                        <img class="banner-slider__arrow banner-slider__arrow_previous" src="icons/previous.svg" alt="previous">
+                        <img class="banner-slider__arrow banner-slider__arrow_next" src="icons/next.svg" alt="next">
+                        <div class="banner-slider__dots">
+                            <div class="banner-slider__dots-dot dot-active"></div>
+                            <div class="banner-slider__dots-dot"></div>
+                            <div class="banner-slider__dots-dot"></div>
+                            <div class="banner-slider__dots-dot"></div>
+                        </div>
+                        <div class="banner-slider__slider">
+                            <img class="banner-slider__slider-image banner-slider__slider-image_level1" src="img/new-style.webp" alt="image" loading="lazy">
+                            <img class="banner-slider__slider-image banner-slider__slider-image_level1" src="img/new-style.webp" alt="image" loading="lazy">
+                            <img class="banner-slider__slider-image banner-slider__slider-image_level1" src="img/new-style.webp" alt="image" loading="lazy">
+                            <img class="banner-slider__slider-image banner-slider__slider-image_level1" src="img/new-style.webp" alt="image" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog__banner-container catalog__banner-container_level2">
+                    <div class="banner-slider banner-slider_level2">
+                        <img class="banner-slider__arrow banner-slider__arrow_previous-level2" src="icons/previous.svg" alt="previous">
+                        <img class="banner-slider__arrow banner-slider__arrow_next-level2" src="icons/next.svg" alt="next">
+                        <div class="banner-slider__dots">
+                            <div class="banner-slider__dots-dot banner-slider__dots-dot_level2 dot-active"></div>
+                            <div class="banner-slider__dots-dot banner-slider__dots-dot_level2"></div>
+                            <div class="banner-slider__dots-dot banner-slider__dots-dot_level2"></div>
+                            <div class="banner-slider__dots-dot banner-slider__dots-dot_level2"></div>
+                        </div>
+                        <div class="banner-slider__slider banner-slider__slider_level2">
+                            <img class="banner-slider__slider-image banner-slider__slider-image_level2" src="img/christmas-light.webp" alt="image" loading="lazy">
+                            <img class="banner-slider__slider-image banner-slider__slider-image_level2" src="img/christmas-light.webp" alt="image" loading="lazy">
+                            <img class="banner-slider__slider-image banner-slider__slider-image_level2" src="img/christmas-light.webp" alt="image" loading="lazy">
+                            <img class="banner-slider__slider-image banner-slider__slider-image_level2" src="img/christmas-light.webp" alt="image" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="modal-window">
+            <div class="modal-window__container">
+                <form class="form" action="#">
+                    <div class="form__header">
+                        <h3 class="form__title">Вход</h3>
+                        <img class="form__exit" src="icons/exit.svg" alt="exit">
+                    </div>
+                    <h4 class="form__subtitle">Вход через E-mail:</h4>
+                    <div class="form__input-line">
+                        <div class="form__input-group">
+                            <input class="form__input form__input_email" type="email" placeholder="E-mail" id="email">
+                            <label class="form__label" for="#email">E-mail</label>
+                        </div>
+                    </div>
+                    <div class="form__input-line">
+                        <div class="form__input-group">
+                            <input class="form__input form__input_password" type="password" placeholder="Пароль" id="password">
+                            <label class="form__label" for="#password">Пароль</label>
+                        </div>
+                        <a class="form__input-switch" href="#"></a>
+                    </div>
+                    <div class="form__button-text">
+                        <button class="form_button-text-btn">Войти</button>
+                        <p class="form__button-text-description">Забыли пароль?</p>
+                    </div>
+                    <hr class="form__hr">
+                    <p class="form__bottom-text">У вас нет аккаунта? <span class="form__bottom-text-span">Зарегистрируйтесь</span></p>
+                </form>
+            </div>
+        </div>
+
+        <div class="main-container hero__main-container">
+            <img class="hero__arrow hero__arrow_previous" src="icons/previous.svg" alt="previous">
+            <img class="hero__arrow hero__arrow_next" src="icons/next.svg" alt="next">
+            <div class="hero__dots">
+                <div class="hero__dots-dot dot-active"></div>
+                <div class="hero__dots-dot"></div>
+                <div class="hero__dots-dot"></div>
+                <div class="hero__dots-dot"></div>
+            </div>
+            <div class="hero__slider">
+                <img class="hero__slider-image" src="img/slider-image-1.webp" alt="image" loading="lazy">
+                <img class="hero__slider-image" src="img/slider-image-2.webp" alt="image" loading="lazy">
+                <img class="hero__slider-image" src="img/slider-image-1.webp" alt="image" loading="lazy">
+                <img class="hero__slider-image" src="img/slider-image-2.webp" alt="image" loading="lazy">
+            </div>
+            <div class="hero__features">
+                <div class="feature">
+                    <img class="feature__icon" src="icons/thumbs-up.svg" alt="feature">
+                    <p class="feature__description">Прямые поставки <br> от производителей</p>
+                </div>
+                <div class="feature">
+                    <img class="feature__icon" src="icons/check.svg" alt="feature">
+                    <p class="feature__description">30 лет опыта <br> продаж</p>
+                </div>
+                <div class="feature">
+                    <img class="feature__icon" src="icons/box.svg" alt="feature">
+                    <p class="feature__description">Более 100 000 <br> товаров</p>
+                </div>
+                <div class="feature">
+                    <img class="feature__icon" src="icons/storage.svg" alt="feature">
+                    <p class="feature__description">Склад категории А 14 000 м²</p>
+                </div>
+                <div class="feature">
+                    <img class="feature__icon" src="icons/delivery.svg" alt="feature">
+                    <p class="feature__description">Доставка по России <br> и странам ЕАЭС</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-content">
+        <div class="main-container main-content__main-container">
+            <h2 class="title main-content__title">Наши новинки</h2>
+            <div class="main-content__cards">
+                <div class="main-content__cards-left-side">
+                    <img class="main-card" src="img/goods-home.webp" alt="image" loading="lazy">
+                </div>
+                <div class="main-content__cards-right-side">
+                    <div class="card">
+                        <img class="card__image" src="img/beach.webp" alt="image" loading="lazy">
+                        <p class="card__title">Пляжные товары</p>
+                    </div>
+                    <div class="card">
+                        <img class="card__image" src="img/textile.webp" alt="image" loading="lazy">
+                        <p class="card__title">Домашний текстиль</p>
+                    </div>
+                    <div class="card">
+                        <img class="card__image" src="img/accessory.webp" alt="image" loading="lazy">
+                        <p class="card__title">Галантерея и аксессуары</p>
+                    </div>
+                    <div class="card">
+                        <img class="card__image" src="img/hygiene.webp" alt="image" loading="lazy">
+                        <p class="card__title">Средства гигиена <br> и бытовая химия</p>
+                    </div>
+                    <div class="card">
+                        <img class="card__image" src="img/presents.webp" alt="image" loading="lazy">
+                        <p class="card__title">Праздники и подарки</p>
+                    </div>
+                    <div class="card">
+                        <img class="card__image" src="img/household.webp" alt="image" loading="lazy">
+                        <p class="card__title">Хозтовары</p>
+                    </div>
+                    <div class="card">
+                        <img class="card__image" src="img/sport.webp" alt="image" loading="lazy">
+                        <p class="card__title">Спортивные товары</p>
+                    </div>
+                    <div class="card">
+                        <img class="card__image" src="img/pets.webp" alt="image" loading="lazy">
+                        <p class="card__title">Товары для животных</p>
+                    </div>
+                </div>
+            </div>
+            <img class="main-content__banner" src="img/banner.webp" alt="banner" loading="lazy">
+        </div>
+    </section>
+
+    <section class="place">
+        <div class="main-container place__main-container">
+            <div class="place__list-items">
+                <div class="title place__title">Магазины</div>
+                <div class="place__input-line">
+                    <div class="place__select-wrapper">
+                        <label class="place__label" for="#select">Город</label>
+                        <nav class="place__dropdown">
+                            Екатеринбург
+                            <ul class="place__dropdown-list">
+                                <li class="place__dropdown-item">Екатеринбург</li>
+                                <li class="place__dropdown-item">Москва</li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <a class="place__arrow" href="#select"></a>
+                </div>
+                <div class="place__address place__address_chern">
+                    <h3 class="place__address-title">Магазин на Черняховского</h3>
+                    <p class="place__address-description">улица Черняховского, 99 <br> +7 (999) 012-34-56 <br> Ежедневно с 09:00 до 22:00</p>
+                </div>
+                <div class="place__address place__address_bluch">
+                    <h3 class="place__address-title">Магазин на Блюхера</h3>
+                    <p class="place__address-description">улица Блюхера, 99 <br> +7 (999) 012-34-56 (доб. 02) <br> Ежедневно с 10:00 до 21:00</p>
+                </div>
+            </div>
+            <div class="place__map" id="yandex-map"></div>
+        </div>
+    </section>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=855479d7-d4f9-42b4-8e73-fdc153a0665b&lang=ru_RU" type="text/javascript"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
